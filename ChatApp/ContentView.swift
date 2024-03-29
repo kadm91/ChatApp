@@ -13,24 +13,28 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            TitleRow()
-            
-            ScrollView {
-                ForEach(messageArray, id: \.self) { text in
-                    
-                    MessageBubble(message: Message(id: "1234", text: text, recived: true, timestamp: Date()))
-                    
-                    
+            VStack {
+                TitleRow()
+                
+                ScrollView {
+                    ForEach(messageArray, id: \.self) { text in
+                        
+                        MessageBubble(message: Message(id: "1234", text: text, recived: true, timestamp: Date()))
+                        
+                        
+                    }
                 }
+                .padding(.top, 10)
+                .background(.white)
+                .cornerRadius(30, corners: [.topLeft, .topRight])
+                
+                
+                
             }
-            .padding(.top, 10)
-            .background(.white)
-            .cornerRadius(30, corners: [.topLeft, .topRight])
+            .background(Color.peach)
             
-            
-            
+            MessageField()
         }
-        .background(Color.peach)
     }
 }
 
