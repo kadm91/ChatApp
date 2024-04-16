@@ -22,6 +22,7 @@
 		00C8AD332BCE08C50037FACB /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 00C8AD322BCE08C50037FACB /* FirebaseFunctionsCombine-Community */; };
 		00C8AD352BCE08D80037FACB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C8AD342BCE08D80037FACB /* GoogleService-Info.plist */; };
 		00C8AD382BCE0AF20037FACB /* MessagerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C8AD372BCE0AF20037FACB /* MessagerManager.swift */; };
+		00C8AD3D2BCE274A0037FACB /* Read Me App Preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00C8AD3C2BCE274A0037FACB /* Read Me App Preview.gif */; };
 		00E4FB792BB6556F0081064B /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4FB782BB6556F0081064B /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		008E286C2BA6B34100840DA3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		00C8AD342BCE08D80037FACB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		00C8AD372BCE0AF20037FACB /* MessagerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagerManager.swift; sourceTree = "<group>"; };
+		00C8AD3C2BCE274A0037FACB /* Read Me App Preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Read Me App Preview.gif"; sourceTree = "<group>"; };
 		00E4FB782BB6556F0081064B /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 		008E285C2BA6917D00840DA3 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				00C8AD3C2BCE274A0037FACB /* Read Me App Preview.gif */,
 				008E285D2BA6917D00840DA3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -190,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00C8AD3D2BCE274A0037FACB /* Read Me App Preview.gif in Resources */,
 				008E285E2BA6917D00840DA3 /* Preview Assets.xcassets in Resources */,
 				008E285B2BA6917D00840DA3 /* Assets.xcassets in Resources */,
 				00C8AD352BCE08D80037FACB /* GoogleService-Info.plist in Resources */,
